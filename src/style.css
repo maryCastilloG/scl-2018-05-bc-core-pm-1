@@ -1,1 +1,27 @@
-/* Acá va tu código */
+body{
+    background-color: aquamarine;     
+   
+}
+h1{
+    text-align: center;
+    display: block;
+    background-color:rgb(255, 0, 0);
+    color: blanchedalmond;
+
+}
+
+form{
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;    
+
+}
+    
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+
+}
+ 

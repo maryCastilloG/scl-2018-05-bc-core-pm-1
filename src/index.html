@@ -6,61 +6,42 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<bodyclass="dato-cero">
-    <header>
-        <center>
-            <h1 class="dato-uno">Encuentro intergeneracional global</h1>
-        </center>
 
-    </header>
+<body>
 
-    <hr/>
-    <div class="dato-tres"></div>
-
+    <div class="encabezado">
+        <h1>Cifrado Cesar</h1>
+    </div>
     <form>
-
-
-
-        <p>¿A qué <a href="https://www.clarin.com/entremujeres/carrera-y-dinero/baby-boomers-generacion-millennials-centennials-generacion-perteneces_0_ByLAxzpEW.html" target="_blank">generación</a> perteneces o te identificas?</p>
-
-
-
-
-        <li>Baby Boomers</li>
-        <li>Generación X</li>
-        <li>Generación Y ó Millenials</li>
-        <li>Generación Z ó Centennials</li>
-
-
-    </form>
-
-
-    <center>
-        <h2>Tú nombre y únete</h2>
-    </center>
-
     <div>
-        <p>Nombre y apellido</p>
 
+<label for='nombre'>Nombre y apellido:</label>
+<input type='text' id='nombre' placeholder="Escribe tu nombre y apellido">
+
+<label for='valor'>Valor:</label>
+<input type="number" id="number" min="2" max="6">
+
+<label for='mensaje'>Texto original:</label>
+<textarea id='mensaje' placeholder="Escribe tu mensaje" ></textarea>
+
+<label for='decodificado'>Texto decodificado:</label>
+<textarea id='decodificado' placeholder="Mensaje decodificado"></textarea>
 
     </div>
-    </div>
 
-    <h2>¿Sabías que...?</h2>
-    <p>Los humanos nos adaptamos a nuestro entorno y a sus veloces tecno-modificaciones según nuestra edad.</p>
 
-    <div id="root"></div>
+
+    
+
+</form>
+
+
+
+      
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-    </body>
 
-</html>
-
-<div id="root"></div>
-
-<script src="cipher.js"></script>
-<script src="index.js"></script>
 </body>
 
 </html>
