@@ -1,11 +1,24 @@
 body{
-    background-color: aquamarine;     
+    background-color: aquamarine;
+    border: 10px;
+      
    
+}
+
+.marco{
+border: 5px solid brown;
+height: 500px;
+
+
+}
+
+.encabezado{
+    background-color:rgb(255, 0, 0);
+
 }
 h1{
     text-align: center;
     display: block;
-    background-color:rgb(255, 0, 0);
     color: blanchedalmond;
 
 }
